@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.vigneshtraining.assignment22.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="Enter Card Balace ($)"
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".7"
+            android:layout_width="0dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorPrimary"
+
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".3"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight="1">
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/field_2"
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".7"
+
+            android:layout_width="0dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorPrimary"
+
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".3"
+            android:inputType="numberDecimal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight="1">
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/field_3"
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".7"
+            android:layout_width="0dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorPrimary"
+
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".3"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin_2"
+        android:layout_weight="1">
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/field_4"
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".7"
+            android:layout_width="0dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorPrimary"
+            android:enabled="false"
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".3"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight="1">
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/field_5"
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".7"
+            android:layout_width="0dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorPrimary"
+            android:enabled="false"
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".3"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight="1">
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/field_6"
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".7"
+            android:layout_width="0dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorPrimary"
+            android:enabled="false"
+            tools:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold"
+            android:layout_weight=".3"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight=".11">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/compute"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight=".11">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"/>
+
+    </LinearLayout>
+
+</LinearLayout>
